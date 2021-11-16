@@ -38,7 +38,7 @@ public class CovidServiceImpl implements CovidService{
         }
 
 
-        return response.getBody();
+        return   response.getBody();
     }
 
     private HttpHeaders setHeaders(){
